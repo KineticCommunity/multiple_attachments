@@ -63,7 +63,7 @@
 		   if(clientManager.isLoading!=true){
 				var attachmentIndex=attachmentQstns.indexOf(questionId);
 				//If an attachment has been added to the last attachment question, present a message
-				if(attachmentIndex>=19){
+				if(attachmentIndex>=attachmentQstns.length-1){
 					alert("The Maximumn number of attachments that may be added to this Request has been reached.");
 				}
 				// Else expose the next attachment question.
